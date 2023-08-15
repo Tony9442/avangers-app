@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+
+*{
+  box-shadow: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  background: #282d35;
+  
+  
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  background: #21222a;
+  height: 50px;
+  padding: 30px 25px;
+}
+
+nav > h3 {
+  margin-right: auto;
+  color: #61DAFB;
+  font-size: 22px;
+}
+
+nav > h4 {
+  color: white;
+  font-weight: 700;
+}
+
+nav > img{
+  height: 50px;
+  margin-right: 7px;
+}
+
+main {
+  padding: 55px 27px;
+  color: white;
+  background-image: url('https://cdn.dribbble.com/users/14814/screenshots/16535574/reactlogo.png');
+  background-position: right 75%;
+  height: 100px;
+}
+
+.list > li {
+  line-height: 30px;
+  padding-block: 19px;
+}
+
+.fact {
+ margin: 0;
+ font-size: 39px;
+ letter-spacing: 0.1rem;
+}
+
+.list {
+  margin-top: 46px;
+}
+
+
+.list > li::marker {
+   font-size: 1.4rem;
+   color: #61DAFB;
 }
